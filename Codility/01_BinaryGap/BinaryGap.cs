@@ -1,11 +1,13 @@
-﻿namespace Codility._01_BinaryGap;
+﻿// ReSharper disable InconsistentNaming
+
+namespace Codility._01_BinaryGap;
 
 public static class BinaryGap
 {
-    public static int Solution(int n)
+    public static int Solution(int N)
     {
         var longestBinaryGap = 0;
-        var binaryRepresentation = Convert.ToString(n, 2);
+        var binaryRepresentation = Convert.ToString(N, 2);
 
         var countingBinaryGap = false;
         var currentBinaryGapLength = 0;
