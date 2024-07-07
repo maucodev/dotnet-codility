@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <Folder Include="01_BinaryGap\" />
+    <Folder Include="03_OddOccurrencesInArray\" />
   </ItemGroup>
 
   <ItemGroup>
