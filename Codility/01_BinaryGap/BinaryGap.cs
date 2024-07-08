@@ -2,6 +2,8 @@
 
 namespace Codility._01_BinaryGap;
 
+using System;
+
 public static class BinaryGap
 {
     public static int Solution(int N)

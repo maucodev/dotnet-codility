@@ -2,6 +2,8 @@
 
 namespace Codility._04_FrogJmp;
 
+using System;
+
 public static class FrogJmp
 {
     public static int Solution(int X, int Y, int D)
